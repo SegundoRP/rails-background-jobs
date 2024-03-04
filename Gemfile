@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.0.3"
+ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
@@ -74,5 +74,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "sidekiq"
+gem "sidekiq", "7.2.2"
+# gem "sidekiq-failures", "~> 1.0"
 gem "sidekiq-failures"
